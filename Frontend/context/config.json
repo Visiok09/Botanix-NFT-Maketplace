@@ -1,0 +1,26 @@
+{
+  "3636": {
+    "market": {
+      "address": "0xd181EAAed2dB3Fdc2dC565b52AaA2a2974b01425",
+      "rpc": ""
+    }
+  },
+  "421614": {
+    "market": {
+      "address": "0xC46713BB038e031Fb2B28516BF9181C520d29f35",
+      "rpc": ""
+    }
+  },
+  "11155420": {
+    "market": {
+      "address": "0xD922516fb6B119fA15EBb490F66a751Ff3aBd034",
+      "rpc": ""
+    }
+  },
+  "11155111": {
+    "market": {
+      "address": "0xAec4e59a2322adf6D5c3B7A21bda3779c0878399",
+      "rpc": ""
+    }
+  }
+}

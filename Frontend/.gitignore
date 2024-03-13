@@ -1,0 +1,46 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any logs
+*.log
+
+# Ignore npm's debug log file
+npm-debug.log*
+
+# Ignore yarn error log
+yarn-error.log
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore editor specific files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore environment variables file
+.env
+
+# Ignore production build files
+/build
+
+# Ignore sensitive or environment-specific configuration files
+/config/config.js
+
+# Ignore any compiled files
+*.min.js
+*.min.css
+
+# Ignore Jekyll build directory (if using Jekyll)
+_site/
+
+# Ignore coverage directory (if using code coverage)
+coverage/
+
+# Ignore any local SQLite database files
+*.sqlite
+
+# Ignore system files that might be created on different platforms
+Thumbs.db
+.DS_Store?
