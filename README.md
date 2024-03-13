@@ -5,12 +5,11 @@ Link to DApp: https://spiderhack.bettabridge.online/
 Clone this repository:
 git clone https://github.com/Visiok09/Botanix-NFT-Maketplace/
 
-Contract folder
-cd Contract
+# Contract folder
+`cd Contract`
 
-Frontend folder
-cd Frontend
+# Frontend folder
+`cd Frontend`
 
-Backend folder
-
-cd Backend
+# Backend folder
+`cd Backend`
