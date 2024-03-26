@@ -23,13 +23,15 @@ async function startServer() {
   server.applyMiddleware({ app });
 
   mongoose
-    .connect(MONGODB, { useUnifiedTopology: true }) // useUnifiedTopology is recommended in recent versions
+    .connect(MONGODB)
     .then(() => {
       console.log('Connection to MongoDB successful');
       return app.listen({ port: 4001 });
     })
     .then((res) => {
-      console.log(`Server running at http://:4001${server.graphqlPath}`);
+      console.log(
+        `Server running at http://localhost:4001${server.graphqlPath}`
+      );
     })
     .catch((error) => {
       console.error('Error connecting to MongoDB or starting server:', error);
