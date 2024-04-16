@@ -120,10 +120,10 @@ export const NFTProvider = ({ children }) => {
               method: 'wallet_addEthereumChain',
               params: [
                 {
-                  chainName: 'Sepolia',
+                  chainName: 'Botanix Testnet',
                   chainId: web3.utils.toHex(defaultChainId),
                   nativeCurrency: { name: 'BTC', decimals: 18, symbol: 'BTC' },
-                  rpcUrls: ['https://sepolia.infura.io/v3/'],
+                  rpcUrls: ['https://node.botanixlabs.dev'],
                 },
               ],
             });
