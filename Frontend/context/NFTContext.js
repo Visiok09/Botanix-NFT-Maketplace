@@ -147,13 +147,8 @@ export const NFTProvider = ({ children }) => {
 
     const web3Modal = new Web3Modal();
     const connection = await web3Modal.connect();
-    let provider;
 
-    if (currentChainId === 324) {
-      provider = new Provider('https://mainnet.era.zksync.io');
-    } else {
-      provider = new ethers.providers.Web3Provider(connection);
-    }
+    const provider = new ethers.providers.Web3Provider(connection);
 
     const MARKETADDR = CONF[currentChainId]?.['market']?.['address'];
 
